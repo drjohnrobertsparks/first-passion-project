@@ -1,4 +1,4 @@
-package org.johnsparks;
+package org.johnrsparkswar;
 
 public class Cards {
     public static final char SPADES_SYMBOL = '\u2660';
