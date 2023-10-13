@@ -1,4 +1,4 @@
 package org.johnsparks;
 
-public class Application {
+public class GameCLI {
 }
