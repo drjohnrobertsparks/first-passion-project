@@ -38,9 +38,4 @@ public class Player {
 
 
 
-
-    public void addPlayerToManager(PlayerManager playerManager){
-        playerManager.addPlayer(computer);
-    }
-
 }
