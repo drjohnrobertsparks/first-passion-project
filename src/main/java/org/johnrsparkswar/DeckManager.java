@@ -27,15 +27,12 @@ public class DeckManager {
             System.out.println("Sorry, number of players must be between 1 and 10.");
         }
     }
-    public void shuffle(){
-        Collections.shuffle(cards);
+
+    public void addDeck(int numberOfDecks){
+        for (int i = 0; i < numberOfDecks; i++) {
+
+        }
     }
 
-    public Cards draw() {
-        return null;
-    }
 
-    public Cards warDraw(){
-        return null;
-    }
 }
