@@ -4,12 +4,13 @@ import java.util.Collections;
 import java.util.List;
 
 public class DeckManager {
+    private int numberOfDecksNeeded;
 
-    private List<Cards> gameDeck;
+    private int numberOfPlayers;
+
 
     public DeckManager(int numberOfPlayers){
         try {
-            int numberOfDecksNeeded;
             if (numberOfPlayers >= 1 && numberOfPlayers <= 2){
                 numberOfDecksNeeded = 3;
             } else if (numberOfPlayers >= 3 && numberOfPlayers <= 4){
@@ -27,12 +28,10 @@ public class DeckManager {
             System.out.println("Sorry, number of players must be between 1 and 10.");
         }
     }
-
-    public void addDeck(int numberOfDecks){
-        for (int i = 0; i < numberOfDecks; i++) {
-
-        }
+    public int getNumberOfDecksNeeded(){
+        return numberOfDecksNeeded;
     }
+
 
 
 }

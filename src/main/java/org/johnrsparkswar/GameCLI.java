@@ -21,10 +21,13 @@ public class GameCLI {
         System.out.println("           Now that we have that cleared up,");
         System.out.println("         Please select your number of players");
         System.out.println("Please select between one and ten players(1, 3, 5, etc.):");
-        String playerCountSelection = userInput.nextLine();
-
+        int numberOfPlayers = Integer.parseInt(userInput.nextLine());
 
     }
+
+    DeckManager deckManager = new DeckManager(nu);
+
+    int numberOfDecksNeeded = deckManager.getNumberOfDecksNeeded();
 
 
 
