@@ -25,9 +25,6 @@ public class GameCLI {
 
     }
 
-    DeckManager deckManager = new DeckManager(nu);
-
-    int numberOfDecksNeeded = deckManager.getNumberOfDecksNeeded();
 
 
 
