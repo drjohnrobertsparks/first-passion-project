@@ -1,6 +1,6 @@
 package org.johnrsparkswar;
 
-public class Cards {
+public class Card {
     public static final char SPADES_SYMBOL = '\u2660';
     public static final char CLUBS_SYMBOL = '\u2663';
     public static final char DIAMONDS_SYMBOL = '\u2666';
@@ -35,12 +35,12 @@ public class Cards {
         isFaceUp = faceUp;
     }
 
-    public Cards(String suit, String rank) {
+    public Card(String suit, String rank) {
         this.suit = suit;
         this.rank = rank;
     }
 
-    public Cards(String suit, String rank, boolean isFaceUp) {
+    public Card(String suit, String rank, boolean isFaceUp) {
         this.suit = suit;
         this.rank = rank;
         this.isFaceUp = false;
