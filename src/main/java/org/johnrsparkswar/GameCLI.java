@@ -18,9 +18,20 @@ public class GameCLI {
         System.out.println("****************************************************");
         System.out.println("                Kidding, don't worry!");
         System.out.println("It's just a friendly, slightly competitive, card game!");
-
-
     }
+
+    public Player initializePlayer() {
+        System.out.print("Enter player one name: ");
+        String playerName = userInput.nextLine();
+
+        Player player = new Player();
+        player.setPlayerName(playerName);
+
+        return player;
+    }
+
+
+
 
 
 
