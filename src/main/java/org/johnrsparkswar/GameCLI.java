@@ -30,6 +30,11 @@ public class GameCLI {
         return player;
     }
 
+    public String getUserInput() {
+
+        return userInput.nextLine();
+    }
+
 
 
 
